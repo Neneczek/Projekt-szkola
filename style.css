@@ -399,6 +399,7 @@ nav{
         display: flex;
         align-items: center;
         padding: 10px ;
+        white-space: nowrap;
     }
 
     .mobile-item {
@@ -510,7 +511,6 @@ nav{
 
     .profile1Clicker{
         cursor: pointer;
-      
     }
 
     .profile2Clicker{
@@ -526,7 +526,6 @@ nav{
     .profiles2{
         height: 45px;
     }
-
 
     .profile3Clicker{
         cursor: pointer;
