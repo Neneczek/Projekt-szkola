@@ -399,7 +399,6 @@ nav{
         display: flex;
         align-items: center;
         padding: 10px ;
-        height: 70px;
     }
 
     .mobile-item {
@@ -482,7 +481,7 @@ nav{
     }
 
     .profiles1{
-        height: 45px;
+        height: 55px;
     } 
     .overflow{
         overflow: hidden;
@@ -528,8 +527,10 @@ nav{
         height: 45px;
     }
 
+
     .profile3Clicker{
         cursor: pointer;
+        margin-top: 5px;
     }
 
     .profile3{
