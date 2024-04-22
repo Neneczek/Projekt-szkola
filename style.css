@@ -481,7 +481,7 @@ nav{
     }
 
     .profiles1{
-        height: 55px;
+        height: 45px;
     } 
     .overflow{
         overflow: hidden;
@@ -530,7 +530,6 @@ nav{
 
     .profile3Clicker{
         cursor: pointer;
-        margin-top: 5px;
     }
 
     .profile3{
