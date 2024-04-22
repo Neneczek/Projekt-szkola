@@ -107,7 +107,7 @@ nav{
 
 .schoolBlock{
     position: absolute;
-    top: 52%;
+    top: 51%;
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: var(--dark-main);
@@ -145,12 +145,10 @@ nav{
 
 .schoolBlock h3{
     margin-bottom: 10px;
-    
 }
 
 .schoolBlock a{
     color: var(--light);
-    
 }
 
 .schoolBlock-flex{
@@ -238,3 +236,316 @@ nav{
     top: -100%;
 }
 
+.edu-offer-top ul li:hover{
+    text-decoration: underline;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+.mobile-nav{
+    display: none;
+}
+
+@media (max-width: 1200px){
+    .nav-items .nav-item, .nav-items span{
+        font-size: 18px;
+    }
+    .nav-img{
+        height: 16px;
+        width: 16px;
+    }
+
+    .schoolBlock{
+        padding: 10px;
+    }
+    
+    .schoolBlock h3{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .schoolBlock h3:first-child{
+        padding-top: 10px;
+    }
+
+    .schoolBlock ul li a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 992px){
+    .nav-items .nav-item, .nav-items span{
+        font-size: 16px;
+    }
+    .nav-img{
+        height: 14px;
+        width: 14px;
+    }
+
+    .schoolBlock {
+        flex-direction: column;
+    }
+
+    .schoolBlockFirst{
+        width: 100%;
+    }
+    .schoolBlockSecond{
+        width: 100%;
+    }
+
+    .edu-offer-top ul li a{
+        font-size: 15px;
+    }
+    .edu-offer-top h3{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px){
+
+    body{
+        overflow-x: hidden;
+    }
+    .nav-items{
+        display: none;
+    }
+    .hamburger-menu{
+        height: 85px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding-right: 20px;
+        
+    }
+
+    .hamburger-header {
+        margin-left: 20px;
+        transition: .4s;
+        font-size: 22px;
+    }
+
+    .hamburger-menu img {
+        height: 50px;
+        cursor: pointer;
+        margin-left: auto;
+    }
+
+    .mobile-nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 330px;
+        background-color: var(--light-gray);
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px 0 20px;
+        transition: .5s;
+        overflow: scroll;
+    }
+
+
+
+    .mobile-nav a, .mobile-accordion {
+        text-decoration: none;
+        color: var(--dark-main);
+        padding: 10px 0;
+        font-size: 20px;
+    }
+
+    .mobile-accordion {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .mobile-nav div{
+        padding: 0;
+    }
+    
+    
+
+    .mobile-nav-close{
+        transform: scale(1.5);
+        margin: 10px 0 40px auto;
+        cursor: pointer;
+    }
+    
+    .mobile-nav-close-img{
+        background-image: url('./zdjecia/x.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 50px;
+    }
+
+    .mobile-item {
+        max-height: 45px;
+        display: flex;
+        align-items: center;
+        max-width: fit-content;
+    }
+
+    .acc1 {
+        height: 45px;
+       overflow: hidden;
+        padding: 0;
+    }
+
+   
+
+    .profiles div p {
+        display: flex;
+        align-items: center;
+        padding: 10px ;
+    }
+
+    .mobile-item {
+        cursor: pointer;
+        padding: 10px 0;
+    }
+
+    .height1 {
+        height: 180px;
+    }
+    
+    .arr1,.arr2,.arr3,.arr4,.arr5,.arr6 {
+        transition: .3s;
+    }
+    
+    .organization {
+        display: flex;
+        flex-direction: column;
+    }
+    .organization a {
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    
+    .acc2 {
+        height: 45px;
+        overflow: hidden;
+        padding: 0;
+    }
+    
+    .height2 {
+        height: 300px;
+    }
+    
+    .documents {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .documents a {
+        font-size: 18px;
+        padding: 10px 0 10px 10px;
+    }
+    
+    .acc3 {
+        height: 45px;
+        overflow: hidden;
+    }
+    
+    .height3 {
+        height: 240px;
+    }
+    
+    .socials {
+        margin: auto 0 50px -8px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .socials img {
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        width: 30px;
+    }
+    
+    .mobile-close {
+        left: -320%;
+    }
+    .mobile-open {
+        left: 0;
+    }
+    
+    .none{
+        display: none;
+    }
+    
+    .hamburger-text{
+        margin-left: auto;
+    }
+
+    .profiles1{
+        height: 45px;
+    } 
+    .overflow{
+        overflow: hidden;
+    }
+
+    .height4 {
+        height: 650px;
+    }
+
+    .profile1{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile1 a{
+        font-size: 18px;
+        padding: 10px 5px;
+    }
+    .profile2 a{
+        font-size: 18px;
+        padding: 10px 5px;
+    }
+    .profile3 a{
+        font-size: 18px;
+        padding: 10px 5px;
+    }
+
+    .profile1Clicker{
+        cursor: pointer;
+    }
+
+    .profile2Clicker{
+        cursor: pointer;
+    }
+
+    .profile2{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .profiles2{
+        height: 45px;
+    }
+
+    .profile3Clicker{
+        cursor: pointer;
+    }
+
+    .profile3{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .profiles3{
+        height: 45px;
+    }
+
+
+
+    
+}
+
+@media (max-height: 800px){
+
+
+}
