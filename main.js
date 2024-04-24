@@ -20,6 +20,8 @@ const arr6 = document.querySelector('.arr6')
 const profiles = document.querySelector('.profiles')
 const socials = document.querySelector('.socials')
 
+const shadow = document.querySelector('.shadowMobile')
+
 
 const destroy = document.querySelectorAll('.destroy')
 
@@ -120,8 +122,18 @@ const closeMobileNav = () => {
     mobileNav.classList.remove('mobile-open')
     hamburger.classList.remove('none')
     hamburgerHeader.classList.remove('hamburger-text')
-
+    
+    shadow.classList.add('mobile-close')
+    
 }
+const shadowClose = () =>{
+    mobileNav.classList.toggle('mobile-close')
+    mobileNav.classList.remove('mobile-open')
+    hamburger.classList.remove('none')
+    hamburgerHeader.classList.remove('hamburger-text')
+    shadow.classList.add('mobile-close')
+}
+
 
 const hamburgerOpen = () => {
     mobileNav.classList.toggle('mobile-open')
@@ -129,6 +141,9 @@ const hamburgerOpen = () => {
     hamburger.classList.add('none')
     hamburgerHeader.classList.add('hamburger-text')
 
+
+    
+    shadow.classList.remove('mobile-close')
 }
 
 
@@ -206,6 +221,7 @@ const profilesClose = () =>{
 }
 
 
+shadow.addEventListener('click', shadowClose)
 
 mobileOffer.addEventListener('click', profilesClose)
 
