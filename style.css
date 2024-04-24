@@ -546,7 +546,10 @@ nav{
     
 }
 
-@media (max-height: 800px){
-
+@media (max-width: 576px){
+    .hamburger-menu img{
+        height: 40px;
+        width: 40px;
+    }
 
 }
