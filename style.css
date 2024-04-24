@@ -760,6 +760,9 @@ header::after{
 
 @media (max-width: 576px){
 
+    .shadowMobile{
+        display: none;
+    }
 
     .headerText p{
         font-size: 13px;
