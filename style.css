@@ -1242,5 +1242,6 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
     .authors{
         font-size: 12px;
         width: 70%;
+        text-align: center;
     }
 }
