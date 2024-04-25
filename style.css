@@ -371,14 +371,15 @@ Przycisk
     background-color: #00000000;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform .3s;
 }
 
 /*
 Link w przycisku po najechaniu
 */
 
-.button a:hover {
-    font-size: 13pt;
+.button:hover {
+    transform: scale(1.03);
 }
 
 /*
@@ -478,6 +479,19 @@ Ikony w stopce
     padding: 20px 20px;
 }
 
+.iconColor1{
+    background-color: #b70e24;
+    border: 2px solid #b70e24;
+}
+.iconColor2{
+    background-color: #006AAC;
+    border: 2px solid #006AAC;
+}
+.iconColor3{
+    background-color: #4D7900;
+    border: 2px solid #4D7900;
+}
+
 
 
 /*
@@ -490,6 +504,7 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
     margin-left: 15px;
     white-space: wrap;
     flex-wrap: wrap;
+    line-height: 30px;
 }
 
 /*
@@ -715,7 +730,6 @@ Ikony w stopce
     display: flex;
     width: 50px;
     height: 50px;
-    border: 2px solid var(--gray);
     border-radius: 50%;
     padding: 8px 8px;
 }
@@ -1119,7 +1133,7 @@ Ikony w stopce
     display: flex;
     width: 80px;
     height: 80px;
-    border: 2px solid var(--gray);
+  
     border-radius: 50%;
     padding: 24px 23px;
 }
