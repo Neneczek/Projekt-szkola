@@ -58,7 +58,7 @@ nav{
     top: 120%;
     left: 0%;
     width: 100%;
-    height: 3px;
+    height: 2px;
     background-color:#526D8200 ;
     transition: 0.3s;
     border-radius: 8px;
@@ -538,7 +538,80 @@ Teksty w pasku
     font-size: 14px;
 }
 
+/* Niepełnosprawni */
+.disabled-block{
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    top: 30%;
+    left: 28px;
+    transform: translate(-50%,-50%);
+    background-color: #006AAC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 200;
+    border-radius: 5px;
+}
+.disabled-block img{
+    height: 30px;
+    width: 30px;
+}
 
+.disabled-use{
+    color: white;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #006AAC;
+    height: 200px;
+    width: 300px;
+    border-radius:  10px;
+}
+
+.disabled-use div{
+    padding: 10px;
+}
+
+.disabled-use div p img{
+    margin-left: 15px;
+}
+
+
+.reset p{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.contrast p{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.font p{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.dark-mode p{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.disabled-close{
+    top: 0%;
+    left: -500%;
+}
+.disabled-open{
+    top: 0%;
+    left: 8%;
+}
 
 @media (max-width: 1420px){
     .headerText p{
