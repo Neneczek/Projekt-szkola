@@ -1,422 +1,788 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="authors" content="Kamil Kozieł, Mateusz Bała, Radosław Gubała">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta
+      name="authors"
+      content="Kamil Kozieł, Mateusz Bała, Radosław Gubała"
+    />
     <title>Zespół Szkół w Dobczycach</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <nav class="nav">
-        <div class="wrapper">
-            <div class="nav-items" >
-                <a  class="nav-item" href="">Strona główna</a>
-                <a  class="nav-item" href="https://dobczyce.edu.pl/index.php/pl/programs">Galeria</a>
-                <a  class="nav-item" href="https://biblzsdob.blogspot.com/">Biblioteka</a>
-                <div class="nav-item-hover"><span >Nasza szkoła</span><div class="nav-img"></div></div> 
-                <div class="nav-item-hover offer"><span>Oferta edukacyjna</span><div class="nav-img arrow"></div></div>
-                <a  class="nav-item" href="">Rekrutacja</a>
-            </div>
-            <div class="hamburger-menu">
-                <h2 class="hamburger-header">Zespół Szkół w Dobczycach</h2>
-                <img src="./zdjecia/menu.svg" alt="" class="hamburger">
-            </div>
+      <div class="wrapper">
+        <div class="nav-items">
+          <a class="nav-item" href="">Strona główna</a>
+          <a
+            class="nav-item"
+            href="https://dobczyce.edu.pl/index.php/pl/programs"
+            >Galeria</a
+          >
+          <a class="nav-item" href="https://biblzsdob.blogspot.com/"
+            >Biblioteka</a
+          >
+          <div class="nav-item-hover">
+            <span>Nasza szkoła</span>
+            <div class="nav-img"></div>
+          </div>
+          <div class="nav-item-hover offer">
+            <span>Oferta edukacyjna</span>
+            <div class="nav-img arrow"></div>
+          </div>
+          <a
+            class="nav-item"
+            href="https://dobczyce.edu.pl/index.php/pl/rekrutacja-zs"
+            >Rekrutacja</a
+          >
         </div>
-        
-        <div class="mobile-nav mobile-close">
-            <div class="mobile-nav-close"><div class="mobile-nav-close-img"></div></div>
-            <a href="" class="mobile-item destroy">Strona Główna</a>
-            <a href="" class="mobile-item destroy">Galeria</a>
-            <a href="" class="mobile-item destroy">Biblioteka</a>
-
-            <div class="mobile-accordion acc1">
-                <p class="mobile-item mb-1 destroy">
-                    Oferta Edukacyjna <img src="./zdjecia/chevron-down.svg" alt="" class="arr1">
-                </p>
-                
-                <div class="profiles">
-                    <div class="profiles1 overflow">
-                        <p class="profile1Clicker">Szkoła Branżowa I Stopnia<img src="./zdjecia/chevron-down.svg" alt="" class="arr4"></p>
-                        <div class="profile1">
-                            <a href="">Elektryk</a>
-                            <a href="">Monter Zabudowy i Robót Wykończeniowych w Budownictwie</a>
-                            <a href="">Kucharz</a>
-                            <a href="">Elektromechanik Pojazdów Samochodywych</a>
-                            <a href="">Klasa Wielozawodowa dla Młodocianych Pracowników</a>
-                            <a href="">Fryzjer</a>
-                        </div>
-                    </div>
-                    <div class="profiles2 overflow">
-                        <p class="profile2Clicker">Technikum<img src="./zdjecia/chevron-down.svg" alt="" class="arr5"></p> 
-                        <div class="profile2">
-                            <a href="">Technik Usług Fryzjerskich</a>
-                            <a href="">Technik Elektryk</a>
-                            <a href="">Technik Elektronik</a>
-                            <a href="">Technik Mechatronik</a>
-                            <a href="">Technik Informatyk</a>
-                            <a href="">Technik Żywienia i Usług Gastronomicznych</a>
-                            <a href="">Technik Robotyk</a>
-                        </div>
-                    </div>
-                    <div class="profiles3 overflow">
-                        <p class="profile3Clicker">Liceum<img src="./zdjecia/chevron-down.svg" alt="" class="arr6"></p> 
-                        <div class="profile3">
-                            <a href="">Liceum Wojskowe</a>
-                            <a href="">Liceum Ratownicze</a>
-                            <a href="">Liceum Pożarnicze</a>
-                            <a href="">Liceum Policyjne</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            
-
-
-
-            <a href="" class="mobile-item mb-2 destroy">Rekrutacja</a>
-            <div class="mobile-accordion acc2 destroy">
-                <p class="mobile-item mb-2">
-                    Organizacja <img src="./zdjecia/chevron-down.svg" alt="" class="arr2">
-                </p>
-                <div class="organization">
-                    <a href="">Kalendarz Roku Szkolnego</a>
-                    <a href="">Dyżury</a>
-                    <a href="">Dyżury Kadry kierowniczej</a>
-                    <a href="">Godziny Pracy Biblioteki</a>
-                    <a href="">Godziny Pracy Sekretariatu</a>
-                    <a href="">Kadra Kierownicza</a>
-                </div>
-            </div>
-            <a href="" class="mobile-item destroy">Kontakt</a>
-            <a href="" class="mobile-item destroy">Patron</a>
-            <a href="" class="mobile-item destroy">Rada Rodziców</a>
-            <div class="mobile-accordion acc3 ">
-                <p class="mobile-item mb-3 destroy">Dokumenty Szkolne <img src="./zdjecia/chevron-down.svg" alt="" class="arr3"></p>
-               <div class="documents">
-                <a href="" class="destroy">Statut</a>
-                <a href="" class="destroy">Oświadczenie o Spełnieniu Warunków Przystąpienia do Egzaminu Maturalnego</a>
-                <a href="" class="destroy">Deklaracja Maturalna</a>
-               </div>
-            </div>
-            <div class="socials ">
-                <a href=""><img src="./zdjecia/facebook.svg" alt=""></a>
-                <a href=""><img src="./zdjecia/instagram.svg" alt=""></a>
-                <a href=""><img src="./zdjecia/youtube.svg" alt=""></a>
-            </div>
-
+        <div class="hamburger-menu">
+          <h2 class="hamburger-header">Zespół Szkół w Dobczycach</h2>
+          <img src="./zdjecia/menu.svg" alt="" class="hamburger" />
         </div>
-        <div class="shadowMobile mobile-close "></div>
+      </div>
+
+      <div class="mobile-nav mobile-close">
+        <div class="mobile-nav-close">
+          <div class="mobile-nav-close-img"></div>
+        </div>
+        <a href="" class="mobile-item destroy">Strona Główna</a>
+        <a href="" class="mobile-item destroy">Galeria</a>
+        <a href="" class="mobile-item destroy">Biblioteka</a>
+
+        <div class="mobile-accordion acc1">
+          <p class="mobile-item mb-1 destroy">
+            Oferta Edukacyjna
+            <img src="./zdjecia/chevron-down.svg" alt="" class="arr1" />
+          </p>
+
+          <div class="profiles">
+            <div class="profiles1 overflow">
+              <p class="profile1Clicker">
+                Szkoła Branżowa I Stopnia<img
+                  src="./zdjecia/chevron-down.svg"
+                  alt=""
+                  class="arr4"
+                />
+              </p>
+              <div class="profile1">
+                <a href="">Elektryk</a>
+                <a href=""
+                  >Monter Zabudowy i Robót Wykończeniowych w Budownictwie</a
+                >
+                <a href="">Kucharz</a>
+                <a href="">Elektromechanik Pojazdów Samochodywych</a>
+                <a href="">Klasa Wielozawodowa dla Młodocianych Pracowników</a>
+                <a href="">Fryzjer</a>
+              </div>
+            </div>
+            <div class="profiles2 overflow">
+              <p class="profile2Clicker">
+                Technikum<img
+                  src="./zdjecia/chevron-down.svg"
+                  alt=""
+                  class="arr5"
+                />
+              </p>
+              <div class="profile2">
+                <a href="">Technik Usług Fryzjerskich</a>
+                <a href="">Technik Elektryk</a>
+                <a href="">Technik Elektronik</a>
+                <a href="">Technik Mechatronik</a>
+                <a href="">Technik Informatyk</a>
+                <a href="">Technik Żywienia i Usług Gastronomicznych</a>
+                <a href="">Technik Robotyk</a>
+              </div>
+            </div>
+            <div class="profiles3 overflow">
+              <p class="profile3Clicker">
+                Liceum<img
+                  src="./zdjecia/chevron-down.svg"
+                  alt=""
+                  class="arr6"
+                />
+              </p>
+              <div class="profile3">
+                <a href="">Liceum Wojskowe</a>
+                <a href="">Liceum Ratownicze</a>
+                <a href="">Liceum Pożarnicze</a>
+                <a href="">Liceum Policyjne</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="" class="mobile-item mb-2 destroy">Rekrutacja</a>
+        <div class="mobile-accordion acc2 destroy">
+          <p class="mobile-item mb-2">
+            Organizacja
+            <img src="./zdjecia/chevron-down.svg" alt="" class="arr2" />
+          </p>
+          <div class="organization">
+            <a href="">Kalendarz Roku Szkolnego</a>
+            <a href="">Dyżury</a>
+            <a href="">Dyżury Kadry kierowniczej</a>
+            <a href="">Godziny Pracy Biblioteki</a>
+            <a href="">Godziny Pracy Sekretariatu</a>
+            <a href="">Kadra Kierownicza</a>
+          </div>
+        </div>
+        <a href="" class="mobile-item destroy">Kontakt</a>
+        <a href="" class="mobile-item destroy">Patron</a>
+        <a href="" class="mobile-item destroy">Rada Rodziców</a>
+        <div class="mobile-accordion acc3">
+          <p class="mobile-item mb-3 destroy">
+            Dokumenty Szkolne
+            <img src="./zdjecia/chevron-down.svg" alt="" class="arr3" />
+          </p>
+          <div class="documents">
+            <a href="" class="destroy">Statut</a>
+            <a href="" class="destroy"
+              >Oświadczenie o Spełnieniu Warunków Przystąpienia do Egzaminu
+              Maturalnego</a
+            >
+            <a href="" class="destroy">Deklaracja Maturalna</a>
+          </div>
+        </div>
+        <div class="socials">
+          <a href=""><img src="./zdjecia/facebook.svg" alt="" /></a>
+          <a href=""><img src="./zdjecia/instagram.svg" alt="" /></a>
+          <a href=""><img src="./zdjecia/youtube.svg" alt="" /></a>
+        </div>
+      </div>
+      <div class="shadowMobile mobile-close"></div>
     </nav>
     <div class="schoolBlock hidden">
-        <div class="schoolBlockFirst">
-            <div>
-                <h3>Nasza Szkoła</h3>
-                    <div class="schoolBlock-flex">
+      <div class="schoolBlockFirst">
+        <div>
+          <h3>Nasza Szkoła</h3>
+          <div class="schoolBlock-flex">
+            <ul>
+              <li><a href="https://biblzsdob.blogspot.com/">Biblioteka</a></li>
+              <li>
+                <a href="https://dobczyce.edu.pl/index.php/pl/kadra"
+                  >Kadra Kierownicza</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://dobczyce.edu.pl/index.php/pl/content-left-right"
+                  >Kontakt</a
+                >
+              </li>
+              <li>
+                <a href="https://dobczyce.edu.pl/index.php/pl/rada-rodzicow"
+                  >Rada Rodziców</a
+                >
+              </li>
+            </ul>
 
-                <ul>
-                    <li><a href="https://biblzsdob.blogspot.com/">Biblioteka</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/kadra">Kadra Kierownicza</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/content-left-right">Kontakt</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/rada-rodzicow">Rada Rodziców</a></li>
-                </ul>
-              
-                <ul>
-                    
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/content-right">Patron</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/content">Wynajem Boiska</a></li>
-                    <li><a href="https://outlook.office.com/mail/">Poczta</a></li>
-                    <li><a href="https://dobczyce.edu.pl/dokumenty/procedury/deklaracja_dostepnosci.pdf">Deklaracja Dostępności</a></li>
-                </ul>
-                </div>
-           </div>
-            <div>
-                <h3>Organizacja</h3>
-                    <div class="schoolBlock-flex">
-
-                <ul>
-                    <li><a href="https://dobczyce.edu.pl/dokumenty/Harmonogram_pracy.pdf">Organizacja Roku Szkolnego</a></li>
-                    <li><a href="https://dobczyce.edu.pl/dokumenty/dyzury.pdf">Dyżury</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/profile">Dyżury kadry kierowniczej</a></li>
-                    <li><a href="https://dobczyce.edu.pl/plany/">Plan lekcji</a></li>
-                </ul>
-              
-                <ul>
-                    
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/contact">Godziny Pracy Sekretariatu</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/dyzury-pedagoga-i-psychologa-szkolnego">Godziny Pracy Pedagoga i Psychologa Szkolnego</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/godziny-pracy-biblioteki">Godziny Pracy Biblioteki</a></li>
-                </ul>
-                </div>
-           </div>
-            <div>
-                <h3>Działalności</h3>
-                    <div class="schoolBlock-flex">
-
-                <ul>
-                    <li><a href="https://gazetka.dobczyce.edu.pl/">Niecodziennik</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/teacher-profile-view">Wolontariat</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/about-us">Samorząd Szkolny</a></li>
-                    <li><a href="https://ckz.dobczyce.edu.pl/">Centrum Kompetencji Zawodowych</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/aktualnosci">Aktualności</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/cmi-centrum-mistrzostwa-informatycznego">CMI Centrum Mistrzostwa Informatycznego</a></li>
-                </ul>
-              
-                <ul>
-                    
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/aktywna-tablica">Aktywna Tablica</a></li>
-                    <li><a href="https://dobczyce.edu.pl/dokumenty/zadania.pdf">Projekty Realizowany ze Środków Budżetu Państwa</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/narodowy-program-rozwoju-czytelnictwa">Narodowny Program Rozwoju Czytelnictwa</a></li>
-                    <li><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=SxGUC5kXTUuHP1PH69Kuef1QcPfWbn1Fu67OVe2PxZFURTZJREdRWENPU1lKNUFHQzhGNElXWDJORi4u&embed=true">Ankieta kl I</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/wymiana-mlodziezy">Wymiana Młodzieży</a></li>
-                </ul>
-                </div>
-           </div>
-           
+            <ul>
+              <li>
+                <a href="https://dobczyce.edu.pl/index.php/pl/content-right"
+                  >Patron</a
+                >
+              </li>
+              <li>
+                <a href="https://dobczyce.edu.pl/index.php/pl/content"
+                  >Wynajem Boiska</a
+                >
+              </li>
+              <li><a href="https://outlook.office.com/mail/">Poczta</a></li>
+              <li>
+                <a
+                  href="https://dobczyce.edu.pl/dokumenty/procedury/deklaracja_dostepnosci.pdf"
+                  >Deklaracja Dostępności</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
+        <div>
+          <h3>Organizacja</h3>
+          <div class="schoolBlock-flex">
+            <ul>
+              <li>
+                <a
+                  href="https://dobczyce.edu.pl/dokumenty/Harmonogram_pracy.pdf"
+                  >Organizacja Roku Szkolnego</a
+                >
+              </li>
+              <li>
+                <a href="https://dobczyce.edu.pl/dokumenty/dyzury.pdf"
+                  >Dyżury</a
+                >
+              </li>
+              <li>
+                <a href="https://dobczyce.edu.pl/index.php/pl/profile"
+                  >Dyżury kadry kierowniczej</a
+                >
+              </li>
+              <li><a href="https://dobczyce.edu.pl/plany/">Plan lekcji</a></li>
+            </ul>
 
-        <div  class="schoolBlockSecond">
-            <h3>Dokumenty Szkolne</h3>
-            <div class="schoolBlock-flex">
-
-        <ul>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/klasyfikacja_roczna.doc">Klasyfikacja</a></li>
-            <li><a href="https://dobczyce.edu.pl/index.php/pl/mlegitymacja">mLegitymacja</a></li>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/instrukcjaewakuacji.pdf">Instrukcja Organizacji Ewakuacji</a></li>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/regulaminsamorzadu.pdf">Regulamin SU Projekt</a></li>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/dostepnosc.pdf">Godziny Dostepności</a></li>
-            <li><a href="https://dobczyce.edu.pl/index.php/pl/kodeks-etyki-zawodowej">Kodeks Etyki Zawodowej</a></li>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/podreczniki/lo_podreczniki.pdf">Podręczniki Szkolne LO</a></li>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/podreczniki/technikum_podreczniki.pdf">Podręczniki Szkolne Technikum</a></li>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/podreczniki/bs_podreczniki.pdf">Podręczniki Szkolne Szkoła Branżowa</a></li>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/oswiadczenie_matura.pdf">Oświadczenie o Spełnieniu Warunków Przystąpienia do Egzaminu Maturalnego </a></li>
-            <li><a href="https://wyniki.edu.pl/login">Deklaracja Maturalna</a></li>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/statut.pdf">Statut</a></li>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/statutckz.pdf">Statut Centrum Kształcenia Zawodowego</a></li>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/ARKUSZSAMOOCENY.doc">Aktualny Arkusz Samooceny nauczyciela</a></li>
-            <li><a href="https://dobczyce.edu.pl/index.php/pl/ubezpieczenie-uczniow">Ubezpieczenie Uczniów</a></li>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/ocena%20realiz.podst.program.docx">Sprawozdanie z Realizacji Podstawy Programowej</a></li>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/spr_z_pracy_zz.doc">Sprawozdanie z Zespołów Przedmiotowych</a></li>
-        </ul>
-      
-        <ul>
-            
-            <li><a href="https://dobczyce.edu.pl/dokumenty/regulaminrady.pdf">Regulamin Rady Pedagogicznej</a></li>
-            <li><a href="https://dobczyce.edu.pl/index.php/pl/wymagania-edukacyjne">Wymagania Edukacyjne</a></li>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/wzorzwolnienia.pdf">Wzór Zwolnienia</a></li>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/wzorusprawiedliwienia.pdf">Wzór Usprawiedliwienia</a></li>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/kartyWycieczki/zgody.docx">Zgody Rodziców na Udział w Wycieczce</a></li>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/praktyki/zgodanaudzialwpraktyce.pdf">Zgoda na Uział w Praktyce Zawodowej</a></li>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/praktyki/podanie.pdf">Podanie o Odbycie Praktyki</a></li>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/praktyki/kartaoceny.pdf">Karta Oceny Praktycznej Nauki Zawodu</a></li>
-            <li><a href="https://dobczyce.edu.pl/dokumenty/dzienniczek.pdf">Dzienniczek Praktyki Zawodowej</a></li>
-        </ul>
+            <ul>
+              <li>
+                <a href="https://dobczyce.edu.pl/index.php/pl/contact"
+                  >Godziny Pracy Sekretariatu</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://dobczyce.edu.pl/index.php/pl/dyzury-pedagoga-i-psychologa-szkolnego"
+                  >Godziny Pracy Pedagoga i Psychologa Szkolnego</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://dobczyce.edu.pl/index.php/pl/godziny-pracy-biblioteki"
+                  >Godziny Pracy Biblioteki</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
+        <div>
+          <h3>Działalności</h3>
+          <div class="schoolBlock-flex">
+            <ul>
+              <li>
+                <a href="https://gazetka.dobczyce.edu.pl/">Niecodziennik</a>
+              </li>
+              <li>
+                <a
+                  href="https://dobczyce.edu.pl/index.php/pl/teacher-profile-view"
+                  >Wolontariat</a
+                >
+              </li>
+              <li>
+                <a href="https://dobczyce.edu.pl/index.php/pl/about-us"
+                  >Samorząd Szkolny</a
+                >
+              </li>
+              <li>
+                <a href="https://ckz.dobczyce.edu.pl/"
+                  >Centrum Kompetencji Zawodowych</a
+                >
+              </li>
+              <li>
+                <a href="https://dobczyce.edu.pl/index.php/pl/aktualnosci"
+                  >Aktualności</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://dobczyce.edu.pl/index.php/pl/cmi-centrum-mistrzostwa-informatycznego"
+                  >CMI Centrum Mistrzostwa Informatycznego</a
+                >
+              </li>
+            </ul>
 
+            <ul>
+              <li>
+                <a href="https://dobczyce.edu.pl/index.php/pl/aktywna-tablica"
+                  >Aktywna Tablica</a
+                >
+              </li>
+              <li>
+                <a href="https://dobczyce.edu.pl/dokumenty/zadania.pdf"
+                  >Projekty Realizowany ze Środków Budżetu Państwa</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://dobczyce.edu.pl/index.php/pl/narodowy-program-rozwoju-czytelnictwa"
+                  >Narodowny Program Rozwoju Czytelnictwa</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://forms.office.com/Pages/ResponsePage.aspx?id=SxGUC5kXTUuHP1PH69Kuef1QcPfWbn1Fu67OVe2PxZFURTZJREdRWENPU1lKNUFHQzhGNElXWDJORi4u&embed=true"
+                  >Ankieta kl I</a
+                >
+              </li>
+              <li>
+                <a href="https://dobczyce.edu.pl/index.php/pl/wymiana-mlodziezy"
+                  >Wymiana Młodzieży</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-</div>
+      </div>
+
+      <div class="schoolBlockSecond">
+        <h3>Dokumenty Szkolne</h3>
+        <div class="schoolBlock-flex">
+          <ul>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/dokumenty/klasyfikacja_roczna.doc"
+                >Klasyfikacja</a
+              >
+            </li>
+            <li>
+              <a href="https://dobczyce.edu.pl/index.php/pl/mlegitymacja"
+                >mLegitymacja</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/dokumenty/instrukcjaewakuacji.pdf"
+                >Instrukcja Organizacji Ewakuacji</a
+              >
+            </li>
+            <li>
+              <a href="https://dobczyce.edu.pl/dokumenty/regulaminsamorzadu.pdf"
+                >Regulamin SU Projekt</a
+              >
+            </li>
+            <li>
+              <a href="https://dobczyce.edu.pl/dokumenty/dostepnosc.pdf"
+                >Godziny Dostepności</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/kodeks-etyki-zawodowej"
+                >Kodeks Etyki Zawodowej</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/dokumenty/podreczniki/lo_podreczniki.pdf"
+                >Podręczniki Szkolne LO</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/dokumenty/podreczniki/technikum_podreczniki.pdf"
+                >Podręczniki Szkolne Technikum</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/dokumenty/podreczniki/bs_podreczniki.pdf"
+                >Podręczniki Szkolne Szkoła Branżowa</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/dokumenty/oswiadczenie_matura.pdf"
+                >Oświadczenie o Spełnieniu Warunków Przystąpienia do Egzaminu
+                Maturalnego
+              </a>
+            </li>
+            <li>
+              <a href="https://wyniki.edu.pl/login">Deklaracja Maturalna</a>
+            </li>
+            <li>
+              <a href="https://dobczyce.edu.pl/dokumenty/statut.pdf">Statut</a>
+            </li>
+            <li>
+              <a href="https://dobczyce.edu.pl/dokumenty/statutckz.pdf"
+                >Statut Centrum Kształcenia Zawodowego</a
+              >
+            </li>
+            <li>
+              <a href="https://dobczyce.edu.pl/dokumenty/ARKUSZSAMOOCENY.doc"
+                >Aktualny Arkusz Samooceny nauczyciela</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/ubezpieczenie-uczniow"
+                >Ubezpieczenie Uczniów</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/dokumenty/ocena%20realiz.podst.program.docx"
+                >Sprawozdanie z Realizacji Podstawy Programowej</a
+              >
+            </li>
+            <li>
+              <a href="https://dobczyce.edu.pl/dokumenty/spr_z_pracy_zz.doc"
+                >Sprawozdanie z Zespołów Przedmiotowych</a
+              >
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="https://dobczyce.edu.pl/dokumenty/regulaminrady.pdf"
+                >Regulamin Rady Pedagogicznej</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/wymagania-edukacyjne"
+                >Wymagania Edukacyjne</a
+              >
+            </li>
+            <li>
+              <a href="https://dobczyce.edu.pl/dokumenty/wzorzwolnienia.pdf"
+                >Wzór Zwolnienia</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/dokumenty/wzorusprawiedliwienia.pdf"
+                >Wzór Usprawiedliwienia</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/dokumenty/kartyWycieczki/zgody.docx"
+                >Zgody Rodziców na Udział w Wycieczce</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/dokumenty/praktyki/zgodanaudzialwpraktyce.pdf"
+                >Zgoda na Uział w Praktyce Zawodowej</a
+              >
+            </li>
+            <li>
+              <a href="https://dobczyce.edu.pl/dokumenty/praktyki/podanie.pdf"
+                >Podanie o Odbycie Praktyki</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/dokumenty/praktyki/kartaoceny.pdf"
+                >Karta Oceny Praktycznej Nauki Zawodu</a
+              >
+            </li>
+            <li>
+              <a href="https://dobczyce.edu.pl/dokumenty/dzienniczek.pdf"
+                >Dzienniczek Praktyki Zawodowej</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <div class="edu-offer hidden">
-        <div class="edu-offer-top">
-            <div>
-                <h3>Liceum</h3>
-                <ul>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/liceumzs/accordion">Liceum Wojskowe</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/liceumzs/liceum-ratownicze">Liceum Ratownicze</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/liceumzs/liceum-pozarnicze">Liceum Pożarnice</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/liceumzs/liceum-policyjne">Liceum Policyjne</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Technikum</h3>
-                <ul>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/technikum1/technik-fryzjer">Technik Usług Fryzjerskich</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/technikum1/elektry">Technik Elektryk</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/technikum1/elektronik">Technik Elektronik</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/technikum1/mechatronik">Technik Mechatronik</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/technikum1/t-zywienia">Technik Żywnenia i Usług Gastronomicznych</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/technikum1/informayk">Technik Informatyk</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/technikum1/technik-robotyk">Technik Robotyk</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Branżowa Szkoła I Stopnia</h3>
-                <ul>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/szkola-branzowa/elektryk">Elektryk</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/szkola-branzowa/monter-zabudowy-i-robot-wykonczeniowych-w-budownictwie">Monter Zabudowy i Robót Wykończeniowych w Budownictwie</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/szkola-branzowa/kucharz">Kucharz</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/szkola-branzowa/elektromechanik-pojazdow-samochodowych">Elektromechanik Pojazdów Samochodywych</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/szkola-branzowa/klasa-wielozawodowa-dla-mlodocianych-pracownikow">Klasa Wielozawodowa dla Młodocianych Pracowników</a></li>
-                    <li><a href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/szkola-branzowa/fryzjer-nowy-kierunek">Fryzjer</a></li>
-                </ul>
-            </div>
+      <div class="edu-offer-top">
+        <div>
+          <h3>Liceum</h3>
+          <ul>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/liceumzs/accordion"
+                >Liceum Wojskowe</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/liceumzs/liceum-ratownicze"
+                >Liceum Ratownicze</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/liceumzs/liceum-pozarnicze"
+                >Liceum Pożarnice</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/liceumzs/liceum-policyjne"
+                >Liceum Policyjne</a
+              >
+            </li>
+          </ul>
         </div>
+        <div>
+          <h3>Technikum</h3>
+          <ul>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/technikum1/technik-fryzjer"
+                >Technik Usług Fryzjerskich</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/technikum1/elektry"
+                >Technik Elektryk</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/technikum1/elektronik"
+                >Technik Elektronik</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/technikum1/mechatronik"
+                >Technik Mechatronik</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/technikum1/t-zywienia"
+                >Technik Żywnenia i Usług Gastronomicznych</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/technikum1/informayk"
+                >Technik Informatyk</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/technikum1/technik-robotyk"
+                >Technik Robotyk</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3>Branżowa Szkoła I Stopnia</h3>
+          <ul>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/szkola-branzowa/elektryk"
+                >Elektryk</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/szkola-branzowa/monter-zabudowy-i-robot-wykonczeniowych-w-budownictwie"
+                >Monter Zabudowy i Robót Wykończeniowych w Budownictwie</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/szkola-branzowa/kucharz"
+                >Kucharz</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/szkola-branzowa/elektromechanik-pojazdow-samochodowych"
+                >Elektromechanik Pojazdów Samochodywych</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/szkola-branzowa/klasa-wielozawodowa-dla-mlodocianych-pracownikow"
+                >Klasa Wielozawodowa dla Młodocianych Pracowników</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/oferta-menu-mobile/szkola-branzowa/fryzjer-nowy-kierunek"
+                >Fryzjer</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <header>
-      
-        <div class="headerFlex">
-            <div class="blockHeader">
-                <div class="headerLogo">
-                    <img src="./zdjecia/szkola_zdjecia/logo_szkoly_bez_tla.png" alt="">
-                </div>
+      <div class="headerFlex">
+        <div class="blockHeader">
+          <div class="headerLogo">
+            <img
+              src="./zdjecia/szkola_zdjecia/logo_szkoly_bez_tla.png"
+              alt=""
+            />
+          </div>
 
-                <div class="headerText">
-                    <h1>Zespół szkół</h1>
-                    <p>im. ks. Józefa Tischnera w Dobczycach</p>
-                </div>
-
-            </div>
+          <div class="headerText">
+            <h1>Zespół szkół</h1>
+            <p>im. ks. Józefa Tischnera w Dobczycach</p>
+          </div>
         </div>
+      </div>
 
-        <div class="disabled">
-            <div class="disabled-block">
-                <img src="./zdjecia/eye-off.svg" alt="Niepełnosprawni">
-                <div class="disabled-use disabled-close">
-
-                    <div class="contrast">
-                        <p>Kontrast: <img src="./zdjecia/disabled/eye.svg" alt="Kontrast"></p>
-                        
-                    </div>
-                    <div class="dark-mode">
-                        <p>Ciemny Motyw: <img src="./zdjecia/disabled/moon.svg" alt="Ciemny motyw"> </p>
-                        
-                    </div>
-                 
-                    <div class="font">
-                        <p>Czcionka: <img src="./zdjecia/disabled/plus-circle.svg" alt="Powiększenie czcionki">  <img src="./zdjecia/disabled/minus-circle.svg" alt="Pomniejszenie czcionki"></p>
-                    </div>
-                    <div class="reset">
-                        <p>Zresetuj style: <img src="./zdjecia/disabled/settings.svg" alt="Reset"> </p>
-                        
-                    </div>
-                </div>
+      <div class="disabled">
+        <div class="disabled-block">
+          <img src="./zdjecia/eye-off.svg" alt="Niepełnosprawni" />
+          <div class="disabled-use disabled-close">
+            <div class="contrast noClose">
+              <p>
+                Kontrast:
+                <img
+                  class="contrastImg"
+                  src="./zdjecia/disabled/eye.svg"
+                  alt="Kontrast"
+                />
+              </p>
+            </div>
+            <div class="dark-mode noClose">
+              <p>
+                Ciemny Motyw:
+                <img src="./zdjecia/disabled/moon.svg" alt="Ciemny motyw" />
+              </p>
             </div>
 
+            <div class="font noClose">
+              <p>
+                Czcionka:
+                <img
+                  src="./zdjecia/disabled/plus-circle.svg"
+                  alt="Powiększenie czcionki"
+                />
+                <img
+                  src="./zdjecia/disabled/minus-circle.svg"
+                  alt="Pomniejszenie czcionki"
+                />
+              </p>
+            </div>
+            <div class="reset noClose">
+              <p>
+                Zresetuj style:
+                <img
+                  class="disabledImg"
+                  src="./zdjecia/disabled/settings.svg"
+                  alt="Reset"
+                />
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </header>
 
     <main>
-        <div class="buttons">
-
-       
+      <div class="buttons">
         <div class="wrapper">
-             <!-- Pasek z przyciskami  -->
+          <!-- Pasek z przyciskami  -->
 
-        <div class="buttonsFlex">
+          <div class="buttonsFlex">
             <div class="button">
-                <a href="https://dobczyce.edu.pl/plany" id="b1">
-                    <img src="./zdjecia/zdjecia2/calendar.png" class="button-icon">
-                    &nbsp; Plan lekcji
-                </a>
+              <a href="https://dobczyce.edu.pl/plany" id="b1">
+                <img
+                  src="./zdjecia/zdjecia2/calendar.png"
+                  class="button-icon"
+                />
+                &nbsp; Plan lekcji
+              </a>
             </div>
             <div class="button">
-                <a href="https://uonetplus.vulcan.net.pl/powiatmyslenicki" id="b2" >
-                    <img src="./zdjecia/zdjecia2/book-open.png" class="button-icon">
-                    &nbsp; Dziennik Vulkan
-                </a>
+              <a
+                href="https://uonetplus.vulcan.net.pl/powiatmyslenicki"
+                id="b2"
+              >
+                <img
+                  src="./zdjecia/zdjecia2/book-open.png"
+                  class="button-icon"
+                />
+                &nbsp; Dziennik Vulkan
+              </a>
             </div>
             <div class="button">
-                <a href="https://portal.office.com/" id="b3">
-                    <img src="./zdjecia/zdjecia2/ms-365.png" class="button-icon">
-                    &nbsp; Microsoft 365
-                </a>
+              <a href="https://portal.office.com/" id="b3">
+                <img src="./zdjecia/zdjecia2/ms-365.png" class="button-icon" />
+                &nbsp; Microsoft 365
+              </a>
             </div>
             <div class="button">
-                <a href="https://dobczyce.edu.pl/index.php/pl/aktualnosci" id="b4">
-                    <img src="./zdjecia/zdjecia2/news.png" class="button-icon">
-                    &nbsp; Aktualności
-                </a>
+              <a
+                href="https://dobczyce.edu.pl/index.php/pl/aktualnosci"
+                id="b4"
+              >
+                <img src="./zdjecia/zdjecia2/news.png" class="button-icon" />
+                &nbsp; Aktualności
+              </a>
             </div>
+          </div>
         </div>
-
-        </div>
-    </div>
-
-
+      </div>
 
       <!-- Aktualnosci -->
 
       <article>
-        <div class="wrapper">
-
-        </div>
+        <div class="wrapper"></div>
       </article>
-
-    
-
     </main>
 
+    <!-- Stopka z linkami do kontaktu -->
 
-      <!-- Stopka z linkami do kontaktu -->
-
-      <footer>
-        <div class="footer">
-           <div class="footer-box wrapper">
-            <div class="footer-item">
-               
-                <a href="mailto:sekretariat@dobczyce.edu.pl">
-                    <div class="footer-icon iconColor1">
-                        <img src="./zdjecia/zdjecia2/mail.png" width="36" height="36" id="icon-email" alt="Poczta">
-                    </div>
-                </a>
-                <p class="footer-paragraph">
-                  Napisz do nas! <br>
-                    sekretariat@
-                    dobczyce.edu.pl
-                </p>
-                
-            </div>
-            <div class="footer-item">
-                
-                <a href="tel:122710118">
-                    <div class="footer-icon iconColor2">
-                        <img src="./zdjecia/zdjecia2/smartphone.png" width="36" height="36" id="icon-phone " alt="Zadzwoń">
-                    </div>
-                </a>
-                <p class="footer-paragraph">
-                    Zadzwoń do nas! <br>
-                    (12) 27 10 181
-                </p>
-           
-            </div>
-            <div class="footer-item">
-             
-                <a href="https://maps.app.goo.gl/AzR6bKn5nyqMmksQ8">
-                    <div class="footer-icon iconColor3">
-                        <img src="./zdjecia/zdjecia2/map-pin.svg" width="36" height="36" id="icon-map" alt="lokalizacja">
-                    </div>
-                </a>
-                <p class="footer-paragraph">
-                    Odwiedź nas! <br>
-                    ul. szkolna 20a Dobczyce
-                </p>
-               
-            </div>
-        </div>
-        </div>
-
-        <!-- Pasek pod stopka z autorami strony  -->
-
-        <div class="credits">
-            <p class="copyright">
-                Copyright &copy; 2024 zs Dobczyce
+    <footer>
+      <div class="footer">
+        <div class="footer-box wrapper">
+          <div class="footer-item">
+            <a href="mailto:sekretariat@dobczyce.edu.pl">
+              <div class="footer-icon iconColor1">
+                <img
+                  src="./zdjecia/zdjecia2/mail.png"
+                  width="36"
+                  height="36"
+                  id="icon-email"
+                  alt="Poczta"
+                />
+              </div>
+            </a>
+            <p class="footer-paragraph">
+              Napisz do nas! <br />
+              sekretariat@ dobczyce.edu.pl
             </p>
-            <p class="authors">
-                Strona stworzona przez: Kamil Kozieł, Mateusz Bała, Radosław Gubała
+          </div>
+          <div class="footer-item">
+            <a href="tel:122710118">
+              <div class="footer-icon iconColor2">
+                <img
+                  src="./zdjecia/zdjecia2/smartphone.png"
+                  width="36"
+                  height="36"
+                  id="icon-phone "
+                  alt="Zadzwoń"
+                />
+              </div>
+            </a>
+            <p class="footer-paragraph">
+              Zadzwoń do nas! <br />
+              (12) 27 10 181
             </p>
+          </div>
+          <div class="footer-item">
+            <a href="https://maps.app.goo.gl/AzR6bKn5nyqMmksQ8">
+              <div class="footer-icon iconColor3">
+                <img
+                  src="./zdjecia/zdjecia2/map-pin.svg"
+                  width="36"
+                  height="36"
+                  id="icon-map"
+                  alt="lokalizacja"
+                />
+              </div>
+            </a>
+            <p class="footer-paragraph">
+              Odwiedź nas! <br />
+              ul. szkolna 20a Dobczyce
+            </p>
+          </div>
         </div>
+      </div>
+
+      <!-- Pasek pod stopka z autorami strony  -->
+
+      <div class="credits">
+        <p class="copyright">Copyright &copy; 2024 zs Dobczyce</p>
+        <p class="authors">
+          Strona stworzona przez: Kamil Kozieł, Mateusz Bała, Radosław Gubała
+        </p>
+      </div>
     </footer>
 
-
-
     <script src="main.js"></script>
-</body>
+    <script src="disabled.js"></script>
+  </body>
 </html>
