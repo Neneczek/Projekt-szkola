@@ -12,6 +12,7 @@
 }
 
 html {
+  font-size: 62.5%;
   overflow-x: hidden;
 }
 
@@ -44,7 +45,7 @@ nav {
 
 .nav-items .nav-item,
 .nav-items span {
-  font-size: 22px;
+  font-size: 2.2rem;
   cursor: pointer;
   font-weight: 600;
   position: relative;
@@ -137,10 +138,12 @@ nav {
 }
 
 .schoolBlock h3 {
+  font-size: 2rem;
   margin-bottom: 10px;
 }
 
 .schoolBlock a {
+  font-size: 1.6rem;
   color: var(--light);
 }
 
@@ -201,10 +204,12 @@ nav {
 }
 
 .edu-offer h3 {
+  font-size: 2rem;
   margin-bottom: 10px;
 }
 
 .edu-offer a {
+  font-size: 1.6rem;
   color: var(--light);
   text-decoration: none;
 }
@@ -327,12 +332,12 @@ header::after {
 }
 
 .headerText h1 {
-  font-size: 50px;
+  font-size: 5rem;
   text-transform: uppercase;
 }
 
 .headerText p {
-  font-size: 25px;
+  font-size: 2.5rem;
   width: 400px;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -392,7 +397,9 @@ Przycisk
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: transform 0.3s;
 }
-
+.button p {
+  font-size: 1.8rem;
+}
 /*
 Link w przycisku po najechaniu
 */
@@ -407,7 +414,7 @@ Link w przycisku
 
 .button a {
   color: var(--light);
-  font-size: 12pt;
+  font-size: 1.2rem;
   text-decoration: none;
   font-weight: bold;
   border-radius: 15px;
@@ -536,6 +543,7 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
   white-space: wrap;
   flex-wrap: wrap;
   line-height: 30px;
+  font-size: 1.6rem;
 }
 
 /*
@@ -553,6 +561,10 @@ Niebieskoszary pasek ponizej stopki
   color: var(--light);
 }
 
+.credits p {
+  font-size: 1.6rem;
+}
+
 /*
 Teksty w pasku
 */
@@ -565,7 +577,7 @@ Teksty w pasku
 /* AUTORZY */
 
 .authors {
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 /* BLACK FOOTER */
@@ -614,6 +626,9 @@ Teksty w pasku
   transition: 0.3s;
   z-index: 1;
 }
+.disabled-use p {
+  font-size: 1.6rem;
+}
 
 .disabled-use div {
   padding: 10px;
@@ -655,12 +670,19 @@ Teksty w pasku
   left: 3%;
 }
 
+/* Black Disabled */
+
+.blackDisabled {
+  background-color: black;
+  color: #ffff00;
+}
+
 @media (max-width: 1420px) {
   .headerText p {
-    font-size: 20px;
+    font-size: 2rem;
   }
   .headerText h1 {
-    font-size: 40px;
+    font-size: 4rem;
   }
   .headerLogo img {
     height: 160px;
@@ -678,7 +700,7 @@ Teksty w pasku
 @media (max-width: 1200px) {
   .nav-items .nav-item,
   .nav-items span {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
   .nav-img {
     height: 16px;
@@ -690,7 +712,7 @@ Teksty w pasku
   }
 
   .schoolBlock h3 {
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-bottom: 5px;
   }
   .schoolBlock h3:first-child {
@@ -698,14 +720,14 @@ Teksty w pasku
   }
 
   .schoolBlock ul li a {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
 
   .headerText p {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
   .headerText h1 {
-    font-size: 30px;
+    font-size: 3rem;
   }
   .headerLogo img {
     height: 120px;
@@ -735,7 +757,7 @@ Teksty w pasku
     */
 
   .button a:hover {
-    font-size: 11pt;
+    font-size: 1.1rem;
   }
 
   /*
@@ -743,7 +765,7 @@ Teksty w pasku
     */
 
   .button a {
-    font-size: 10pt;
+    font-size: 1rem;
   }
 
   .footer {
@@ -754,7 +776,7 @@ Teksty w pasku
 @media (max-width: 992px) {
   .nav-items .nav-item,
   .nav-items span {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
   .nav-img {
     height: 14px;
@@ -773,17 +795,17 @@ Teksty w pasku
   }
 
   .edu-offer-top ul li a {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
   .edu-offer-top h3 {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
 
   .headerText p {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
   .headerText h1 {
-    font-size: 25px;
+    font-size: 2.5rem;
   }
   .headerLogo img {
     height: 100px;
@@ -812,12 +834,12 @@ Teksty w pasku
   }
 
   .button a {
-    font-size: 16pt;
+    font-size: 1.6rem;
     width: 260px;
   }
 
   .button a:hover {
-    font-size: 17pt;
+    font-size: 1.7rem;
   }
 
   .footer-item {
@@ -857,7 +879,7 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
     margin-left: 15px;
     white-space: wrap;
     flex-wrap: wrap;
-    font-size: 15px;
+    font-size: 1.5rem;
   }
 }
 
@@ -879,7 +901,7 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
   .hamburger-header {
     margin-left: 20px;
     transition: 0.4s;
-    font-size: 22px;
+    font-size: 2.2rem;
   }
 
   .hamburger-menu img {
@@ -921,7 +943,7 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
     text-decoration: none;
     color: var(--dark-main);
     padding: 10px 0;
-    font-size: 20px;
+    font-size: 2rem;
   }
 
   .mobile-accordion {
@@ -990,7 +1012,7 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
     flex-direction: column;
   }
   .organization a {
-    font-size: 18px;
+    font-size: 1.8rem;
     padding-left: 10px;
   }
 
@@ -1010,7 +1032,7 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
   }
 
   .documents a {
-    font-size: 18px;
+    font-size: 1.8rem;
     padding: 10px 0 10px 10px;
   }
 
@@ -1067,15 +1089,15 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
     flex-direction: column;
   }
   .profile1 a {
-    font-size: 18px;
+    font-size: 1.8rem;
     padding: 10px 5px;
   }
   .profile2 a {
-    font-size: 18px;
+    font-size: 1.8rem;
     padding: 10px 5px;
   }
   .profile3 a {
-    font-size: 18px;
+    font-size: 1.8rem;
     padding: 10px 5px;
   }
 
@@ -1110,10 +1132,10 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
   }
 
   .headerText p {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
   .headerText h1 {
-    font-size: 25px;
+    font-size: 2.5rem;
   }
   .headerLogo img {
     height: 100px;
@@ -1166,12 +1188,12 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
   }
 
   .button a {
-    font-size: 16pt;
+    font-size: 1.6rem;
     width: 310px;
   }
 
   .button a:hover {
-    font-size: 17pt;
+    font-size: 1.7rem;
   }
 
   /* 
@@ -1206,7 +1228,7 @@ Stopka
   }
 
   .footer-item p {
-    font-size: 20px;
+    font-size: 2rem;
   }
 
   /*
@@ -1251,11 +1273,11 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
   }
 
   .headerText p {
-    font-size: 15px;
+    font-size: 1.5rem;
     width: 130%;
   }
   .headerText h1 {
-    font-size: 20px;
+    font-size: 2rem;
     width: 130%;
   }
   .headerLogo img {
@@ -1303,19 +1325,19 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
   }
 
   .button a {
-    font-size: 16pt;
+    font-size: 1.6rem;
     width: 270px;
   }
 
   .button a:hover {
-    font-size: 17pt;
+    font-size: 1.7rem;
   }
 
   .copyright {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   .authors {
-    font-size: 12px;
+    font-size: 1.2rem;
     width: 70%;
     text-align: center;
   }
