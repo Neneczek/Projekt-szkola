@@ -1043,7 +1043,7 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
   }
 
   .socials {
-    margin: auto 0 50px -8px;
+    margin: auto 0;
     display: flex;
     justify-content: space-evenly;
   }
@@ -1250,6 +1250,7 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
 */
 
   .footer-paragraph {
+    margin-left: 0;
     display: block;
   }
 
