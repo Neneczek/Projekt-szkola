@@ -476,7 +476,7 @@ Kazdy z linkow ma wlasny kolor i id
 
 article {
   height: 400px;
-  width: 100vw;
+  width: 100%;
   background-color: var(--light);
 }
 
@@ -485,8 +485,8 @@ Stopka
 */
 
 .footer {
-  width: 100vw;
-  height: 120px;
+  width: 100%;
+  height: 140px;
   background-color: var(--light-gray);
   padding: 0 120px;
 }
@@ -1260,7 +1260,7 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
   .credits {
     flex-direction: column;
     padding: 10px;
-    height: 70px;
+    height: 100px;
   }
   .credits p {
     margin-bottom: 5px;
