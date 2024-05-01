@@ -692,9 +692,6 @@ Teksty w pasku
     height: 250px;
     width: 600px;
   }
-  header {
-    width: 110%;
-  }
 }
 
 @media (max-width: 1200px) {
