@@ -1268,6 +1268,9 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
 }
 
 @media (max-width: 576px) {
+  .credits {
+    height: 140px;
+  }
   .shadowMobile {
     display: none;
   }
