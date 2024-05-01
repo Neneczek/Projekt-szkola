@@ -1148,7 +1148,7 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
   }
 
   header {
-    background-image: url("./zdjecia/szkola_zdjecia/rys_szkola2-1920px.png");
+    background-image: url("./zdjecia/szkola_zdjecia/rys_szkola2-1200px.png");
     height: 500px;
     width: 100%;
     background-position: center;
@@ -1294,7 +1294,7 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
   }
 
   header {
-    background-image: url("./zdjecia/szkola_zdjecia/rys_szkola2-1920px.png");
+    background-image: url("./zdjecia/szkola_zdjecia/rys_szkola2-1200px.png");
     height: 500px;
     width: 100%;
     background-position: center;
@@ -1308,7 +1308,7 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
   }
 
   .buttons {
-    width: 100%;
+    width: 125%;
     background-color: white;
     padding: 0;
   }
