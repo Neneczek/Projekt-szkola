@@ -476,7 +476,7 @@ Kazdy z linkow ma wlasny kolor i id
 
 article {
   height: 400px;
-  width: 100%;
+  width: 100vw;
   background-color: var(--light);
 }
 
@@ -485,7 +485,7 @@ Stopka
 */
 
 .footer {
-  width: 100%;
+  width: 100vw;
   height: 120px;
   background-color: var(--light-gray);
   padding: 0 120px;
