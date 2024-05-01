@@ -29,7 +29,7 @@ body {
 
 nav {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 85px;
   background-color: var(--light);
   box-shadow: 0px 0px 10px rgba(26, 25, 25, 0.628);
@@ -288,7 +288,7 @@ nav {
 header {
   background-image: url("./zdjecia/szkola_zdjecia/rys_szkola2-1920px.png");
   height: 600px;
-  width: 100%;
+  width: 100vw;
   background-position: 120%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -315,7 +315,7 @@ header::after {
   position: absolute;
   height: 100%;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   z-index: 10;
   top: 0;
   left: 5%;
@@ -741,7 +741,7 @@ Teksty w pasku
   header {
     background-image: url("./zdjecia/szkola_zdjecia/rys_szkola2-1920px.png");
     height: 600px;
-    width: 125%;
+    width: 100vw;
     background-position: 120%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1308,7 +1308,7 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
   }
 
   .buttons {
-    width: 125%;
+    width: 100%;
     background-color: white;
     padding: 0;
   }
