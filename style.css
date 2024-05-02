@@ -106,7 +106,7 @@ nav {
 
 .schoolBlock {
   position: fixed;
-  top: 51%;
+  top: 480px;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: var(--dark-main);
@@ -186,7 +186,7 @@ nav {
 
 .edu-offer {
   position: fixed;
-  top: 27.6%;
+  top: 260px;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: var(--dark-main);
