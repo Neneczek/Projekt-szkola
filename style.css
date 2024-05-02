@@ -117,8 +117,11 @@ nav {
   display: flex;
   overflow-y: auto;
   overflow-x: hidden;
-  transition: 0.3s;
+  transition: 0.8s;
   z-index: 2;
+}
+.schoolBlockAnimation {
+  animation: przezroczystosc 0.6s linear forwards alternate;
 }
 
 .schoolBlock2 {
@@ -197,7 +200,7 @@ nav {
   display: flex;
   overflow-y: auto;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.6s;
   z-index: 2;
   display: flex;
   flex-direction: column;
@@ -228,6 +231,24 @@ nav {
 
 .hidden {
   top: -100%;
+}
+
+@keyframes przezroczystosc {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .edu-offer-top ul li:hover {
@@ -823,7 +844,6 @@ Teksty w pasku
   header {
     background-image: url("./zdjecia/szkola_zdjecia/rys_szkola2-1920px.png");
     height: 600px;
-    width: 145%;
     background-position: 120%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -974,7 +994,7 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
   }
 
   .mobile-item {
-    max-height: 45px;
+    height: 45px;
     display: flex;
     align-items: center;
     max-width: fit-content;
@@ -1347,5 +1367,52 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
     font-size: 1.2rem;
     width: 70%;
     text-align: center;
+  }
+}
+
+@media (max-height: 900px) {
+  .schoolBlock {
+    top: 380px;
+    height: 600px;
+  }
+
+  .hidden {
+    top: -100%;
+  }
+}
+
+@media (max-height: 700px) {
+  .schoolBlock {
+    top: 280px;
+    height: 400px;
+  }
+
+  .hidden {
+    top: -100%;
+  }
+}
+@media (max-height: 600px) {
+  .socials {
+    display: none;
+  }
+  .mobile-nav .destroy:nth-child(9),
+  .destroy:nth-child(10) {
+    display: none;
+  }
+}
+
+@media (max-height: 500px) {
+  .schoolBlock {
+    top: 230px;
+    height: 300px;
+  }
+
+  .hidden {
+    top: -100%;
+  }
+  .mobile-nav .destroy:nth-child(2),
+  .destroy:nth-child(3),
+  .destroy:nth-child(5) {
+    display: none;
   }
 }

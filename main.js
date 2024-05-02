@@ -26,6 +26,7 @@ const destroy = document.querySelectorAll(".destroy");
 const navSlider = () => {
   navArrow.classList.toggle("arrowRotate");
   schoolBlock.classList.toggle("hidden");
+  schoolBlock.classList.toggle("schoolBlockAnimation");
   eduOffer.classList.add("hidden");
   navArrow2.classList.remove("arrowRotate");
 };
@@ -34,6 +35,7 @@ const offerSlider = () => {
   navArrow2.classList.toggle("arrowRotate");
   eduOffer.classList.toggle("hidden");
   schoolBlock.classList.add("hidden");
+  schoolBlock.classList.remove("schoolBlockAnimation");
   navArrow.classList.remove("arrowRotate");
 };
 
