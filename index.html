@@ -43,11 +43,11 @@
             >Biblioteka</a
           >
           <div class="nav-item-hover">
-            <span>Nasza szkoła</span>
+            <button>Nasza szkoła</button>
             <div class="nav-img"></div>
           </div>
           <div class="nav-item-hover offer">
-            <span>Oferta edukacyjna</span>
+            <button>Oferta edukacyjna</button>
             <div class="nav-img arrow"></div>
           </div>
           <a
@@ -57,7 +57,7 @@
           >
           <a
             class="nav-item"
-            href="https://dobczyce.edu.pl/index.php/pl/rekrutacja-zs"
+            href="https://dobczyce.edu.pl/dokumenty/procedury/deklaracja_dostepnosci.pdf"
             >Deklaracja Dostępności</a
           >
         </div>
@@ -76,7 +76,7 @@
           <div class="mobile-nav-close-img"></div>
         </div>
         <a
-          href="https://dobczyce.edu.pl/index.php/pl/rekrutacja-zs"
+          href="https://dobczyce.edu.pl/dokumenty/procedury/deklaracja_dostepnosci.pdf"
           class="mobile-item destroy"
           >Deklaracja Dostępności</a
         >
@@ -747,43 +747,60 @@
 
       <div class="disabled">
         <div class="disabled-block">
-          <img src="./zdjecia/disabled/wheelchair.png" alt="Dostępność" />
+          <button>
+            <img src="./zdjecia/disabled/wheelchair.png" alt="Dostępność" />
+          </button>
           <div class="disabled-use disabled-close">
             <div class="contrast noClose">
-              <p>
-                Kontrast:
+              <p>Kontrast:</p>
+              <button>
                 <img
                   class="contrastImg"
                   src="./zdjecia/disabled/eye.svg"
                   alt="Kontrast"
                 />
-              </p>
+              </button>
             </div>
 
             <div class="font noClose">
-              <p>
-                Czcionka:
+              <p>Czcionka:</p>
+              <button class="fontPlus">
                 <img
                   src="./zdjecia/disabled/plus-circle.svg"
                   alt="Powiększenie czcionki"
-                  class="fontPlus"
                 />
+              </button>
+              <button class="fontMinus">
                 <img
                   src="./zdjecia/disabled/minus-circle.svg"
                   alt="Pomniejszenie czcionki"
-                  class="fontMinus"
                 />
-              </p>
+              </button>
+            </div>
+
+            <div class="layout noClose">
+              <p>Rozszerz:</p>
+              <button>
+                <img
+                  src="./zdjecia/disabled/maximize-2.svg"
+                  alt="rozszerz stronę"
+                />
+              </button>
             </div>
             <div class="reset noClose">
-              <p>
-                Zresetuj style:
+              <p>Zresetuj style:</p>
+              <button>
                 <img
                   class="disabledImg"
                   src="./zdjecia/disabled/settings.svg"
                   alt="Reset"
                 />
-              </p>
+              </button>
+            </div>
+            <div class="closeX">
+              <button>
+                <img src="./zdjecia/disabled/x.svg" alt="" />
+              </button>
             </div>
           </div>
         </div>

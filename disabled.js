@@ -2,6 +2,15 @@ const disabled = document.querySelector(".disabled-use");
 const disabledBlock = document.querySelector(".disabled-block");
 const disabledX = document.querySelector(".disabledX");
 const noClose = document.querySelectorAll(".noClose");
+const layout = document.querySelector(".layout");
+const wrapper = document.querySelectorAll(".wrapper");
+
+const wrapperRemover = () => {
+  for (let i = 0; i < 3; i++) {
+    wrapper[i].classList.toggle("wrapper");
+  }
+};
+layout.addEventListener("click", wrapperRemover);
 
 const disabledOpen = () => {
   disabled.classList.toggle("disabled-close");
@@ -20,7 +29,7 @@ const disabledNoClose = () => {
 
 disabledBlock.addEventListener("click", disabledOpen);
 
-for (let i = 0; i < 3; i++) {
+for (let i = 0; i < 4; i++) {
   noClose[i].addEventListener("click", disabledNoClose);
 }
 
@@ -32,7 +41,7 @@ const footer = document.querySelector(".footer");
 const credits = document.querySelector(".credits");
 const article = document.querySelector("article");
 const header = document.querySelector("header");
-const contrast = document.querySelector(".contrastImg");
+const contrast = document.querySelector(".contrast");
 
 const invertNav = () => {
   nav.classList.toggle("navBlack");
@@ -54,7 +63,7 @@ contrast.addEventListener("click", invertNav);
 const newHtml = document.querySelector("html");
 const fontPlus = document.querySelector(".fontPlus");
 const fontMinus = document.querySelector(".fontMinus");
-const reset = document.querySelector(".disabledImg");
+const reset = document.querySelector(".reset");
 
 const fontSizePlus = () => {
   //   newHtml.style.fontSize = "80%";
@@ -95,6 +104,9 @@ const resetAll = () => {
   header.classList.remove("headerBlack");
   disabledBlock.classList.remove("blackDisabled");
   newHtml.style.fontSize = "62.5%";
+  for (let i = 0; i < 3; i++) {
+    wrapper[i].classList.add("wrapper");
+  }
 };
 
 const closeDisabled = () => {

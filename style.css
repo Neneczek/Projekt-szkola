@@ -14,6 +14,7 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  font-family: "Sedan", serif;
 }
 
 .wrapper {
@@ -99,6 +100,19 @@ nav {
   background-color: var(--dark-main);
   color: var(--light);
 }
+.nav-items .nav-item-hover:hover button {
+  background-color: var(--dark-main);
+  color: var(--light);
+}
+.nav-items .nav-item-hover button {
+  background-color: var(--light);
+  border: none;
+  font-size: 2rem;
+  font-family: "Sedan", serif;
+  font-weight: bold;
+  color: var(--dark-main);
+  cursor: pointer;
+}
 
 .nav-items .nav-item-hover img {
   background-color: var(--light);
@@ -117,11 +131,11 @@ nav {
   display: flex;
   overflow-y: auto;
   overflow-x: hidden;
-  transition: 0.8s;
+  transition: 0.4s;
   z-index: 2;
 }
 .schoolBlockAnimation {
-  animation: przezroczystosc 0.6s linear forwards alternate;
+  animation: przezroczystosc 0.4s linear forwards alternate;
 }
 
 .schoolBlock2 {
@@ -269,6 +283,17 @@ nav {
   background-color: black;
   color: yellow;
 }
+
+.navBlack .nav-item-hover:hover button {
+  background-color: var(--dark-main);
+  color: yellow;
+}
+.navBlack .nav-item-hover button {
+  background-color: black;
+
+  color: yellow;
+}
+
 .navBlack .nav-items a {
   color: yellow;
 }
@@ -307,7 +332,7 @@ nav {
 /** header **/
 
 header {
-  background-image: url("./zdjecia/szkola_zdjecia/rys_szkola2-1920px.png");
+  background-image: url("./zdjecia/szkola_zdjecia/rys_szkola2-1920px.webp");
   height: 600px;
   width: 100vw;
   background-position: 120%;
@@ -572,6 +597,7 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
   flex-wrap: wrap;
   line-height: 30px;
   font-size: 1.6rem;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /*
@@ -633,6 +659,12 @@ Teksty w pasku
   z-index: 200;
   border-radius: 5px;
 }
+
+.disabled-block button {
+  background-color: #006aac;
+  border: none;
+  cursor: pointer;
+}
 .disabled-block img {
   height: 30px;
   width: 30px;
@@ -656,37 +688,12 @@ Teksty w pasku
 }
 .disabled-use p {
   font-size: 1.6rem;
+  white-space: nowrap;
 }
 
 .disabled-use div {
   padding: 10px;
-}
-
-.disabled-use div p img {
-  margin-left: 15px;
-  cursor: pointer;
-}
-
-.reset p {
-  display: flex;
-  width: 100%;
-  align-items: center;
-}
-
-.contrast p {
-  display: flex;
-  width: 100%;
-  align-items: center;
-}
-.font p {
-  display: flex;
-  width: 100%;
-  align-items: center;
-}
-.dark-mode p {
-  display: flex;
-  width: 100%;
-  align-items: center;
+  width: 30%;
 }
 
 .disabled-close {
@@ -698,11 +705,29 @@ Teksty w pasku
   left: 3%;
 }
 
+.noClose {
+  display: flex;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.closeX {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 /* Black Disabled */
 
 .blackDisabled {
   background-color: black;
   color: #ffff00;
+}
+
+.blackDisabled button {
+  background-color: black;
 }
 
 @media (max-width: 1420px) {
@@ -764,7 +789,7 @@ Teksty w pasku
   }
 
   header {
-    background-image: url("./zdjecia/szkola_zdjecia/rys_szkola2-1920px.png");
+    background-image: url("./zdjecia/szkola_zdjecia/rys_szkola2-1920px.webp");
     height: 600px;
     width: 100vw;
     background-position: 120%;
@@ -842,7 +867,7 @@ Teksty w pasku
   }
 
   header {
-    background-image: url("./zdjecia/szkola_zdjecia/rys_szkola2-1920px.png");
+    background-image: url("./zdjecia/szkola_zdjecia/rys_szkola2-1920px.webp");
     height: 600px;
     background-position: 120%;
     background-size: contain;
@@ -1172,7 +1197,7 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
   }
 
   header {
-    background-image: url("./zdjecia/szkola_zdjecia/rys_szkola2-1200px.png");
+    background-image: url("./zdjecia/szkola_zdjecia/rys_szkola2-1200px.webp");
     height: 500px;
     width: 100%;
     background-position: center;
@@ -1318,7 +1343,7 @@ Ten pierwszy z lewej sie nie zawija jest jakies blad
   }
 
   header {
-    background-image: url("./zdjecia/szkola_zdjecia/rys_szkola2-1200px.png");
+    background-image: url("./zdjecia/szkola_zdjecia/rys_szkola2-1200px.webp");
     height: 500px;
     width: 100%;
     background-position: center;
