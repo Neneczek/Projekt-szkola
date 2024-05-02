@@ -117,7 +117,7 @@ nav {
   display: flex;
   overflow-y: auto;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.3s;
   z-index: 2;
 }
 
@@ -480,6 +480,13 @@ article {
   background-color: var(--light);
 }
 
+/*BLACK ARTICLE */
+
+.blackArticle {
+  background-color: #121212;
+  color: yellow;
+}
+
 /* 
 Stopka
 */
@@ -586,7 +593,7 @@ Teksty w pasku
   color: yellow;
 }
 .blackCredits {
-  background-color: rgb(18, 18, 18);
+  background-color: #121212;
   color: yellow;
 }
 

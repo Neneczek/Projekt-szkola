@@ -6,6 +6,11 @@ const noClose = document.querySelectorAll(".noClose");
 const disabledOpen = () => {
   disabled.classList.toggle("disabled-close");
   disabled.classList.toggle("disabled-open");
+
+  navArrow.classList.remove("arrowRotate");
+  schoolBlock.classList.add("hidden");
+  eduOffer.classList.add("hidden");
+  navArrow2.classList.remove("arrowRotate");
 };
 
 const disabledNoClose = () => {
@@ -21,10 +26,12 @@ for (let i = 0; i < 3; i++) {
 
 const nav = document.querySelector(".nav");
 const blockHeader = document.querySelector(".blockHeader");
+const headerFlex = document.querySelector(".headerFlex");
 const buttons = document.querySelector(".buttons");
 const footer = document.querySelector(".footer");
 const credits = document.querySelector(".credits");
-
+const article = document.querySelector("article");
+const header = document.querySelector("header");
 const contrast = document.querySelector(".contrastImg");
 
 const invertNav = () => {
@@ -33,10 +40,13 @@ const invertNav = () => {
   eduOffer.classList.toggle("navBlack");
   mobileNav.classList.toggle("navBlack");
   blockHeader.classList.toggle("headerBlack");
+  header.classList.toggle("headerBlack");
   buttons.classList.toggle("blackButtons");
   footer.classList.toggle("blackFooter");
   credits.classList.toggle("blackCredits");
   disabled.classList.toggle("blackDisabled");
+  disabledBlock.classList.toggle("blackDisabled");
+  article.classList.toggle("blackArticle");
 };
 
 contrast.addEventListener("click", invertNav);
@@ -81,8 +91,23 @@ const resetAll = () => {
   footer.classList.remove("blackFooter");
   credits.classList.remove("blackCredits");
   disabled.classList.remove("blackDisabled");
+  article.classList.remove("blackArticle");
+  header.classList.remove("headerBlack");
+  disabledBlock.classList.remove("blackDisabled");
   newHtml.style.fontSize = "62.5%";
 };
+
+const closeDisabled = () => {
+  disabled.classList.add("disabled-close");
+  disabled.classList.remove("disabled-open");
+};
+
+nav.addEventListener("click", closeDisabled);
+headerFlex.addEventListener("click", closeDisabled);
+buttons.addEventListener("click", closeDisabled);
+footer.addEventListener("click", closeDisabled);
+credits.addEventListener("click", closeDisabled);
+article.addEventListener("click", closeDisabled);
 
 fontPlus.addEventListener("click", fontSizePlus);
 
